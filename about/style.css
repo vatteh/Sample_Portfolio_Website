@@ -1,0 +1,140 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #F5F9FA;
+}
+
+h1,h2,h3,p,a {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #030000;
+	text-decoration: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+button {
+	padding: 5px;
+	margin: 15px auto;
+}
+
+/*--------------Class containers---------------*/
+.container {
+	width: 1050px;
+	margin: 50px auto;
+}
+
+.imageAndThumbnailContainer .imgContainer {
+	float: left;
+}
+
+.imageAndThumbnailContainer .sideGalleryContainer {
+	float: right;
+}
+
+/*------------Navigation Container-------------*/
+.container .navigationContainer {
+	float: left;
+}
+
+.container .navigationContainer {
+	float: left;
+	width: 200px;
+	padding-right: 30px;
+	border-right-style: groove;
+	border-right-color: #5F5F5F;
+	border-right-width: 2px;
+}
+
+.header {
+	margin-bottom: 50px;
+}
+
+.phoneNumber,.email {
+	font-size: 12px;
+}
+
+.networks p {
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+}
+
+.networks a {
+	color: #030000;
+	font-size: 20px;
+	padding: 5px;
+
+	-webkit-transition-property: color;
+	-moz-transition-property: color;
+	-o-transition-property: color;
+	-ms-transition-property: color;
+	transition-property: color;
+
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 0.25s;
+	-o-transition-duration: 0.25s;
+	-ms-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+}
+
+.networks a:hover {
+	color: #5aa8d0;
+}
+
+nav ul {
+	padding-top: 20px;
+	list-style: none;
+	font-size: 24px;
+}
+
+nav li {
+	padding: 15px 0px;
+	text-align: center;
+	text-decoration: none;
+	border-bottom-style: dashed;
+	border-bottom-color: #5F5F5F;
+	border-bottom-width: 1px;
+}
+
+nav li:last-child {
+	border-bottom-style: none;
+}
+
+/*------------Image Container-------------*/
+.container .imageAndThumbnailContainer {
+	float: right;
+	width: 800px;
+}
+
+.idImage {
+	width: 250px;
+	height: 250px;
+	padding-bottom: 50px;
+}
+
+.idImage img {
+	width: inherit;
+	height: inherit;
+
+}
+
+.textInfo p{
+	text-align: left;
+	padding-bottom: 10px;
+}
+.textInfo h5{
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+/*------------Footer Container-------------*/
+footer {
+	clear: both;
+}
+
