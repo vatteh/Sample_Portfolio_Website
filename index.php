@@ -97,11 +97,12 @@ connect();
 	</footer> 
 </div>
 
-<div class="toolbarWrapp">
+
+<!-- <div class="toolbarWrapp">
 	<div class="imageUpload">
 		<a href="Jcrop/?new=true" aria-hidden="true" class="icon-upload" alt="upload image"></a>
 	</div>
-</div>
+</div> -->
 
 <script src="scripts/jquery.2.0.1.min.js"></script>
 <script src="scripts/slider.js"></script>
@@ -117,9 +118,14 @@ $(window).load(function() {
 		transitionEffect: 'slide',
 		thumbnailTransitionEffect: 'slide',
 		continuousLoop: false,
-		addImageInfo: true
+		addImageInfo: false
 	});
+		// transitionEffect: animations vary between 'slide', 'fade' and 'none'
+		// thumbnailTransitionEffect: animations also vary between 'slide', 'fade' and 'none'
+		// continuousLoop: if true, images will loop infinitley.
+		// addImageInfo: if true, additional image info will load for each image using ajax 
 
+	// Fade the site into view after the entire site and all images have loaded 
 	$('.imageAndThumbnailContainer').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0},1000);
 });
 
